@@ -21,12 +21,11 @@ public class Main {
 		String client_name;
 		int client_age;
 		int teller_number;
-		
 
 		while (!option.equals("3")) {
 			System.out.println("Escolha uma opção:");
 			System.out.println("1 - Registrar cliente");
-			System.out.println("2 - Solictar próximo cliente");
+			System.out.println("2 - Solicitar próximo cliente");
 			System.out.println("3 - Sair");
 
 			option = scanner.next();
