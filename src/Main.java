@@ -25,6 +25,7 @@ public class Main {
 					client_name = scanner.next();
 					System.out.print("Idade do cliente: ");
 					client_age = scanner.nextInt();
+					bank.addClient(new Client(client_name, client_age));
 					break;
 				case "2":
 					System.out.print("Número do caixa: ");
