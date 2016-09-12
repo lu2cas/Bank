@@ -8,17 +8,6 @@ public class Bank {
 	public Bank() {
 		this.clients = new LinkedList<Client>();
 		this.tellers = new LinkedList<Teller>();
-
-		this.addTeller(new Teller(1));
-		this.addTeller(new Teller(2));
-		this.addTeller(new Teller(3));
-		this.addTeller(new Teller(4));
-		this.addTeller(new Teller(5));
-		this.addTeller(new Teller(6));
-		this.addTeller(new Teller(7));
-		this.addTeller(new Teller(8));
-		this.addTeller(new Teller(9));
-		this.addTeller(new Teller(10));
 	}
 
 	public boolean addClient(Client client) {
