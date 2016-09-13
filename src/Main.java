@@ -5,16 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 		Bank bank = new Bank();
 
-		bank.addTeller(new Teller(1));
-		bank.addTeller(new Teller(2));
-		bank.addTeller(new Teller(3));
-		bank.addTeller(new Teller(4));
-		bank.addTeller(new Teller(5));
-		bank.addTeller(new Teller(6));
-		bank.addTeller(new Teller(7));
-		bank.addTeller(new Teller(8));
-		bank.addTeller(new Teller(9));
-		bank.addTeller(new Teller(10));
+		for (int n = 1; n <= 10; n++) {
+			bank.addTeller(new Teller(n));
+		}
 
 		Scanner scanner = new Scanner(System.in);
 		String option = "";
